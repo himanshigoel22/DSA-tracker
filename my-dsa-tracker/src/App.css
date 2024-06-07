@@ -1,0 +1,21 @@
+body.dark-mode {
+    background-color: #180038;
+    color: #ffffff;
+  }
+  
+  .App.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+ 
+  h1 {
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+    color: #240750;
+  }
+
+body.dark-mode h1{
+    color: #F8D082;
+  }
+
+  

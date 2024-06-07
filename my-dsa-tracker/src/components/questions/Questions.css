@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+.questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .questions h2{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+  }
+  
+  table {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
+  td a {
+    text-decoration: none;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .done {
+    background-color: #e0ffe0;
+  }
+  
+  .done-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .done-button:hover {
+    background-color: #218838;
+  }
+  
+  .undone-button {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .undone-button:hover {
+    background-color: #f2f2f2;
+  }
+
+  body.dark-mode th {
+    color: #000000;
+    background-color: #c8c8c8 ;
+  }
+  
+  body.dark-mode td a {
+    color: #ffffff;
+  }
+
+  body.dark-mode .done{
+    background-color: #7d7373;
+  }

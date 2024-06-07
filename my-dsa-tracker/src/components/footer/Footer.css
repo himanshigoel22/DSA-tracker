@@ -1,0 +1,25 @@
+.footer {
+    padding: 10px 20px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 5px;
+    background-color: #bddaf7;
+    color: #000000;
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #000000;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  
