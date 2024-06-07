@@ -15,7 +15,7 @@ const Navbar = ({ isLoggedIn, handleLogout, toggleDarkMode, isDarkMode }) => {
     }
   };
 
-  return (
+  return ( 
     <nav className="navbar">
       <div className="navbar-left">
         <Link to="/about" onClick={handleAboutClick}>About</Link>
